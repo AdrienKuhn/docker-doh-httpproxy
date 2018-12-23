@@ -22,4 +22,9 @@ See https://github.com/facebookexperimental/doh-proxy
 
 ## DNS over HTTPS clients
 
-See https://developers.cloudflare.com/1.1.1.1/dns-over-https/cloudflared-proxy/
+### Linux / MacOS
+- [cloudflared-proxy](https://developers.cloudflare.com/1.1.1.1/dns-over-https/cloudflared-proxy/)
+- [dnscrypt-proxy 2](https://github.com/jedisct1/dnscrypt-proxy)
+
+### Android
+- [Intra](https://play.google.com/store/apps/details?id=app.intra)
