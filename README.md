@@ -10,12 +10,13 @@ docker run \
 
 ## Environment Variables
 
-| Var            | Description                                       | Default   |
-| ---------------| --------------------------------------------------| ----------|
-| RESOLVER       | Upstream recursive resolver to send the query to. | 127.0.0.1 |
-| PORT           | Port to listen on.                                | 8080      |
-| LISTEN_ADDRESS | A list of addresses the proxy should listen on.   | 127.0.0.1 |
-| LEVEL          | Log level                                         | ERROR     |
+| Var            | Description                                                | Default              |
+| -------------- | ---------------------------------------------------------- | -------------------- |
+| RESOLVER_HOST  | Upstream recursive resolver hostname to send the query to. | Fallback to RESOLVER |
+| RESOLVER       | Upstream recursive resolver to send the query to.          | 127.0.0.1            |
+| PORT           | Port to listen on.                                         | 8080                 |
+| LISTEN_ADDRESS | A list of addresses the proxy should listen on.            | 127.0.0.1            |
+| LEVEL          | Log level                                                  | ERROR                |
 
 ## Documentation
 
