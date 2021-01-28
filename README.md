@@ -3,7 +3,7 @@
 ## Usage example
 
 ```bash
-docker run \
+docker run --rm \
   -p 8080:8080 \
   krewh/doh-httproxy
 ```
