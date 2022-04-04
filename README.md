@@ -1,5 +1,7 @@
 # docker-doh-httpproxy
 
+[![CircleCI](https://circleci.com/gh/AdrienKuhn/docker-doh-httpproxy/tree/main.svg?style=shield&circle-token=7c25dc68dcdf0b41c79ee96069c6bbf69bc69a6d)](https://circleci.com/gh/AdrienKuhn/docker-doh-httpproxy/tree/main)
+
 ## Usage
 
 ### Docker images
